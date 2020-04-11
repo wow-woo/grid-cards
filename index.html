@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid auto-fit</title>
+    <style>
+        section {
+            width: 80%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 10px;
+        }
+
+        section>div {
+            background-color: #098;
+        }
+
+        section>div>img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            1<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+        <div>
+            2<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+        <div>
+            3<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+        <div>
+            4<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+        <div>
+            5<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+        <div>
+            6<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+        <div>
+            7<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+        <div>
+            8<img src='https://cdn.pixabay.com/photo/2018/09/14/10/35/eggs-3676707__340.jpg' />
+        </div>
+    </section>
+</body>
+
+</html>
